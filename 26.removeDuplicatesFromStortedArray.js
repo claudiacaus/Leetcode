@@ -60,9 +60,11 @@ var removeDuplicates = function (nums) {
         }
     }
     // 6. return the pointer + 1
-    return i + 1;
+  return i + 1;
+
+  console.log(removeDuplicates([1,1,2]));
 }
 
-// another solution
+
 
 
