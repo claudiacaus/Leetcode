@@ -64,9 +64,9 @@ var romanToInt = function (s) {
 
         if (current < next) {
             // 1 < 5
-            total -= current; // 0 - 1
+            total -= current; // 0 - 1 = -1
         } else {
-            total += current; // 0 + 1
+            total += current; // 0 + 1 = 1
         }
     }
 
